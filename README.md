@@ -8,7 +8,7 @@ This repository is preserved only for historical academic reference and does not
 - Hamza Omran – ID: 22011501  
 - Mohammed Rafat  
 - Wael Ahmed Rabie Al_naqiti – ID: 22010290  
-- معاذ مصطفى عبدالحميد مصطفى – ID: 22010263  
+- Moaz Mostafa Abd-Elhamied – ID: 22010263  
 - Aly Eldin Yasser  
 - Yasser Ashraf Mohammed – ID: 22010409  
 
