@@ -199,6 +199,3 @@ This project is archived and no longer maintained.
 * UCI Banknote Authentication Dataset
 * Vapnik: Support Vector Machines
 * Boyd & Vandenberghe: Convex Optimization
-
-ucimlrepo
-
