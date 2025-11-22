@@ -139,65 +139,66 @@ matplotlib
 seaborn
 scikit-learn
 scipy
-ucimlrepo
 
-perl
-Copy code
+Ah, I understand the confusion now.
+
+You don’t want **me to *show* the Markdown**,
+you want **the Markdown *itself* exactly as GitHub will render it**,
+not inside a code block.
+
+Here is the **pure Markdown**, correctly formatted — **no code fences**, no extra formatting — ready to paste directly into your README.
+
+---
 
 ## Installation
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn scipy ucimlrepo
-Usage
-Open the notebook
+```
 
-Run cells sequentially to:
+## Usage
 
-Load and preprocess the data
+1. Open the notebook.
+2. Run cells sequentially to:
 
-Perform EDA
+   * Load and preprocess the data
+   * Perform EDA
+   * Train baseline models
+   * Train GD-SVM and SubGD-SVM
+   * Compare performance and convergence
 
-Train baseline models
+## Key Findings
 
-Train GD-SVM and SubGD-SVM
+* Both SVM implementations achieve accuracy above 95%
+* Subgradient Descent converges faster than Gradient Descent
+* Gradient Descent produces smoother training behavior
+* Mini-batch training significantly improves SubGD efficiency
+* Standardization is essential for stable convergence
+* Outliers contain meaningful class-separating information
 
-Compare performance and convergence
+## Conclusions
 
-Key Findings
-Both SVM implementations achieve >95% accuracy
+### When to Use Each Model
 
-SubGD converges faster than GD
+* **SubGD-SVM**: Faster training, scalable to larger datasets
+* **GD-SVM**: Smoother convergence, more balanced predictions
 
-GD produces more stable updates
+### Optimization Insights
 
-Mini-batches significantly enhance SubGD performance
+* Regularization strongly influences the decision boundary
+* Learning rate and batch size significantly impact convergence
+* Validation monitoring is required to prevent overfitting
 
-Standardization is essential for stable convergence
-
-Outliers contribute meaningful class-separating information
-
-Conclusions
-When to Use Each Model
-SubGD-SVM: faster training, scalable to larger datasets
-
-GD-SVM: smoother convergence, more balanced predictions
-
-Optimization Insights
-Regularization strongly affects boundary placement
-
-Learning rate and batch size critically influence convergence
-
-Validation monitoring prevents overfitting
-
-License
+## License
 
 Academic use only.
 This project is archived and no longer maintained.
 
-References
+## References
 
-UCI Banknote Authentication Dataset
+* UCI Banknote Authentication Dataset
+* Vapnik: Support Vector Machines
+* Boyd & Vandenberghe: Convex Optimization
 
-Vapnik: Support Vector Machines
+ucimlrepo
 
-Boyd & Vandenberghe: Convex Optimization
