@@ -1,5 +1,8 @@
 # Banknote Authentication Using SVM (Archived) - 2025
 
+## Academic Context
+This project was developed as part of the "Convex Optimization" course (2025).
+
 A convex optimization project implementing Support Vector Machine (SVM) classifiers using Gradient Descent and Subgradient Descent for banknote authentication.  
 This repository is preserved only for historical academic reference and does not represent current professional coding standards.
 
